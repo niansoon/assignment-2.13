@@ -14,8 +14,6 @@ switch (env.toUpperCase()) {
     case "PRODUCTION":
         config.baseURL="https://skillsunion.com"
         break;
-        default:
-            config.baseURL="This is default"
 }
 
 export default config;

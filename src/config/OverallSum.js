@@ -1,7 +1,7 @@
 import AddSum from "./AddSum";
 import Answer from "./Answer";
 import {useState} from 'react';
-import config from './config/index';
+import config from './index';
 
 const OverallSum = () => {
 
