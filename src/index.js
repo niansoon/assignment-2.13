@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Form from './config/Form';
+import AddSum from './config/AddSum';
+import Answer from './config/Answer';
+import OverallSum from './config/OverallSum';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Form />
+    <AddSum />
+    <Answer />
+    <OverallSum />
   </React.StrictMode>
 );
 
