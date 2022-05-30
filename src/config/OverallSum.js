@@ -1,6 +1,7 @@
 import AddSum from "./AddSum";
 import Answer from "./Answer";
 import {useState} from 'react';
+import config from './config/index';
 
 const OverallSum = () => {
 
@@ -17,6 +18,7 @@ const OverallSum = () => {
         <h2>Addition Calculator</h2>
         <AddSum sumSum = {handleSum} />
         <Answer name = {sum} />
+        <div>BaseURL: {config.baseURL}</div>
         </>
     )
 }
